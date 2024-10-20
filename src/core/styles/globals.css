@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.clip-triangle {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  transform: rotate(270deg);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Poppins', sans-serif; 
+}
